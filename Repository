@@ -1,0 +1,4 @@
+gh repo create adaptive-trust-membrane \
+  --public \
+  --description "Adaptive Trust Membrane: Generative Trust Modeling Interface" \
+  --template python

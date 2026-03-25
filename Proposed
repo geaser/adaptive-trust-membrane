@@ -1,0 +1,17 @@
+adaptive-trust-membrane/
+├── README.md
+├── pyproject.toml
+├── membrane_interface/
+│   ├── __init__.py
+│   └── spec.md
+├── src/
+│   └── adaptive_trust_membrane/
+│       ├── __init__.py
+│       ├── logging_utils.py
+│       ├── models.py
+│       ├── membrane_interface.py
+│       ├── trust_calibration.py
+│       └── context_complexity.py
+└── tests/
+    ├── test_context_complexity.py
+    └── test_trust_calibration.py

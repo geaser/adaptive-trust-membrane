@@ -1,0 +1,19 @@
+from adaptive_trust_membrane.membrane_interface import (
+    calibrate_trust,
+    classify_context_complexity,
+    simulate_trust_trajectory,
+)
+
+context = {
+    "source_reliability": 0.9,
+    "evidence_quality": 0.8,
+    "novelty": 0.3,
+    "ambiguity": 0.2,
+    "stakes": 0.4,
+    "dependencies": 2,
+    "conflict_signals": 0.1,
+}
+
+trust_score = calibrate_trust(context)
+complexity = classify_context_complexity(context)
+trajectory = simulate_trust_trajectory(context, steps=5)
